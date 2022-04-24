@@ -72,7 +72,7 @@
 [OutputType([System.String])]
 Param (
     [Parameter(Mandatory = $false)]
-    [System.String] $Redirections = "https://raw.githubusercontent.com/aaronparker/fslogix/main/Redirections/Redirections.csv",
+    [System.String] $Redirections = "https://raw.githubusercontent.com/markd-bit/azure/main/Redirections/Redirections.csv",
 
     [Parameter(Mandatory = $false)]
     [System.String] $OutFile = "Redirections.xml"
